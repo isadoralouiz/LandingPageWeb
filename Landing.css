@@ -20,7 +20,7 @@ nav ul {
 
 nav ul li {
     display: inline;
-    margin: 0 15px;
+    margin:15px;
 }
 
 nav ul li a {
@@ -39,7 +39,7 @@ section {
 
 .img1{
     width: 1200px;
-    padding-left: 17%;
+    padding-left: 10%;
 }
 
 .sec1{
@@ -51,6 +51,9 @@ section {
     margin: 2%;
 }
 
+
+
+
 #secao2 {
     background: #E7A87E;
     display: grid;
@@ -59,7 +62,7 @@ section {
     padding: 40px;
 }
   
-  .card {
+  .receita {
     background-color: #d38551;
     border-radius: 20px;
     padding: 20px;
@@ -67,11 +70,11 @@ section {
     transition: transform 0.2s ease-in-out;
   }
   
-  .card:hover {
+  .receita:hover {
     transform: scale(1.02);
   }
   
-  .card img {
+  .receita img {
     width: 250px;
     height: auto;
     border-radius: 12px;
@@ -87,13 +90,69 @@ section {
     margin-left: 20px;
   }
 
+
+
+
 #secao3 {
     background: #DDA67B;
+    background-color: #e9a072;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 100px;
+    border-radius: 20px;
+    margin: 2%;
+
 }
 
+
+
 #secao4 {
-    background: #b0b0b0;
+    background: #E7A87E;;
 }
+
+#secao4 h2 {
+    color: #C84C05;
+    margin-bottom: 10px;
+    font-size: 28px;
+  }
+  
+  #secao4 p {
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+  
+  form label {
+    font-weight: bold;
+    display: block;
+    margin-top: 10px;
+    color: #8a5a3b;
+  }
+  
+  form input, form textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px;
+    border-radius: 10px;
+    font-size: 14px;
+    margin-top: 5px;
+  }
+  
+  form button {
+    background-color: #C84C05;
+    color: #ffad7e;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 20px;
+  }
+  
+  form button:hover {
+    background-color: #a93e04;
+  }
+
+  
 
 footer {
     text-align: center;
