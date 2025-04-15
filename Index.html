@@ -46,10 +46,7 @@
     <div class="receita">
       <h2>Pamonha doce com queijo</h2>
       <img src="imagem/img2.png" alt="Pamonha doce com queijo">
-      <h3>
-        <img src="imagem/img6.png" alt="Ingredientes">
-        Ingredientes
-      </h3>
+      <h3>Ingredientes</h3>
       <ul>
         <li>6 espigas de milho verde</li>
         <li>1 xícara de açúcar</li>
@@ -142,7 +139,7 @@
     <p>O Paraná é um caldeirão de influências: indígena, europeia, tropeira. Cada prato tem um sotaque, uma lembrança e
       uma alma.</p>
 
-    <h2>Nosso jeito de coxinhar</h2>
+    <h2>Nosso jeito de cozinhar</h2>
     <p>Aqui, o tempero principal é o carinho. Nada de pressa: é comida que exige tempo, paciência e afeto.</p>
 
     <h2>Valorização da cultura local</h2>
@@ -166,34 +163,32 @@
     <p>Tem uma receita especial na família? Ou uma ideia pra deixarmos esse cantinho ainda mais gostoso? Conta pra
       gente! 💌</p>
 
-    <form action="#" method="post">
-      <label for="nome">Seu nome:</label><br>
-      <input type="text" id="nome" name="nome" placeholder="Ex: Isadora Luiz"><br><br>
+    <form action="https://formsubmit.co/20233005546@estudantes.ifpr.edu.br" method="POST">
+      <label for="nome">Seu nome:</label>
+      <input type="text" id="nome" name="nome" placeholder="Ex: Isadora Luiz" required><br>
 
-      <label for="mensagem">Sua sugestão:</label><br>
-      <textarea id="mensagem" name="mensagem" rows="4" placeholder="Escreva aqui..."></textarea><br><br>
+      <label for="mensagem">Sua sugestão:</label>
+      <textarea id="mensagem" name="mensagem" rows="4" placeholder="Escreva aqui..." required></textarea><br>
 
       <button type="submit">Enviar</button>
     </form>
+
   </section>
 
   <footer>
 
-    <button class="botao"><a href="https://www.instagram.com/" target="_blank">
-        <i data-feather="instagram"></i>
-      </a></button>
+    <button class="botao" onclick="window.open('https://www.instagram.com/', '_blank')">
+      <i data-feather="instagram"></i>
+    </button>
 
-    <button class="botao"><a href="https://github.com/" target="_blank">
-        <i data-feather="github"></i>
-      </a></button>
+    <button class="botao" onclick="window.open('https://github.com/', '_blank')">
+      <i data-feather="github"></i>
+    </button>
 
-    <a href="mailto:isadora.izlou@gmail.com">
-      <button class="botao">
-        <i data-feather="mail"></i> Enviar E-mail
-      </button>
-    </a>
-
-
+    <button class="botao"
+      onclick="window.open('https://mail.google.com/mail/?view=cm&fs=1&to=20233005546@estudantes.ifpr.edu.br', '_blank')">
+      <i data-feather="mail"></i>
+    </button>
 
     <p>&copy; 2025 Receitas & Retalhos. Todos os direitos reservados.</p>
   </footer>
