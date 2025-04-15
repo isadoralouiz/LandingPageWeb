@@ -153,6 +153,7 @@ section {
   }
 
   
+  
 
 footer {
     text-align: center;
@@ -160,4 +161,22 @@ footer {
     background: #333;
     color: #8A6B5C;
     position: relative;
+}
+
+.botao {
+  background-color: #9e501f;
+  color: #fff;
+  font-family: 'Special Elite', cursive;
+  font-size: 16px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+button:hover {
+  background-color: #C84C05;
+  transform: scale(1.05);
 }
